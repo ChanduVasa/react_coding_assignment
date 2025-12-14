@@ -25,7 +25,7 @@ const App = () => (
           <Navbar />
           <main>
             <Routes>
-              <Route path="/" element={<Index />} />
+              <Route path="/react_coding_assignment/" element={<Index />} />
               <Route path="/characters" element={<Characters />} />
               <Route path="/characters/:id" element={<CharacterDetail />} />
               <Route path="/episodes" element={<Episodes />} />
