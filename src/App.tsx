@@ -20,12 +20,12 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/react_coding_assignment/">
         <div className="min-h-screen bg-background">
           <Navbar />
           <main>
             <Routes>
-              <Route path="/react_coding_assignment/" element={<Index />} />
+              <Route path="/" element={<Index />} />
               <Route path="/characters" element={<Characters />} />
               <Route path="/characters/:id" element={<CharacterDetail />} />
               <Route path="/episodes" element={<Episodes />} />
